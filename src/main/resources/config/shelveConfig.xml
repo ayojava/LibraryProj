@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<root>
+
+<shelves>
+    <shelveName>Technology</shelveName>  
+    <shelveCode>TECH001</shelveCode> 
+    <shelveDescription>Technology Books</shelveDescription>
+</shelves>
+<shelves>
+    <shelveName>Science</shelveName>  
+    <shelveCode>SC001</shelveCode> 
+    <shelveDescription>Science Books</shelveDescription>
+</shelves>
+<shelves>
+    <shelveName>Art</shelveName>  
+    <shelveCode>ART001</shelveCode> 
+    <shelveDescription>Art Books</shelveDescription>
+</shelves>
+</root>
