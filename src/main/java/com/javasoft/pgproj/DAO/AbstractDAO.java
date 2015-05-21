@@ -15,6 +15,8 @@ import javax.persistence.Query;
 /**
  *
  * @author ayojava
+ * @param <T>
+ * 
  */
 public abstract class AbstractDAO<T extends Serializable> implements DAO<T> {
 
