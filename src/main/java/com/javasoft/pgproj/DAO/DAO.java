@@ -6,11 +6,11 @@ package com.javasoft.pgproj.DAO;
 
 import java.io.Serializable;
 import java.util.List;
-import java.util.Map;
 
 /**
  *
  * @author ayojava
+ * @param <T>
  */
 public interface DAO<T extends Serializable>
 {

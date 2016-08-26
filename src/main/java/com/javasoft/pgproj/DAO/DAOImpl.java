@@ -12,6 +12,7 @@ import javax.persistence.EntityManager;
 /**
  *
  * @author ayojava
+ * @param <T>
  */
 public class DAOImpl<T extends Serializable> extends AbstractDAO<T> 
 {
