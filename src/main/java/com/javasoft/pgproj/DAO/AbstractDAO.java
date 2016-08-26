@@ -22,7 +22,7 @@ import javax.persistence.Query;
 public abstract class AbstractDAO<T extends Serializable> implements DAO<T> {
 
     private Class<T> entityClass;
-    //private static EntityManagerFactory emf;
+   
     protected boolean extended;
 
     public AbstractDAO(Class<T> domainClass) {
