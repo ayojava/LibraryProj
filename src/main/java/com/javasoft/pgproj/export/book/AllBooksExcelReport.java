@@ -24,9 +24,9 @@ import org.apache.poi.ss.usermodel.Row;
  */
 public class AllBooksExcelReport extends ExcelProcessor {
 
-    private String[] columnHeaders = {"S/N", "NAME", "AUTHOR", "PUBLISHER", "BOOK CODE", "SHELVE NAME", "REGISTERED DATE", "STATUS"};
-    private String[] SheetHeaders = {"LIST OF LIBRARY BOOKS"};
-    private List<Book> allBooks;
+    private final String[] columnHeaders = {"S/N", "NAME", "AUTHOR", "PUBLISHER", "BOOK CODE", "SHELVE NAME", "REGISTERED DATE", "STATUS"};
+    private final String[] SheetHeaders = {"LIST OF LIBRARY BOOKS"};
+    private final List<Book> allBooks;
     private ByteArrayOutputStream outStream;
 
     public AllBooksExcelReport(String sheetName, List<Book> allBooks) {

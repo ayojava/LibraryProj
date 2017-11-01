@@ -26,7 +26,7 @@ public abstract class ExcelProcessor {
     
     private Sheet currentSheet;
     
-    private int rowPosition=1;
+    public int rowPosition=1;
     
     private CellStyle headerTitleStyle,columnTitleStyle,cellContentStyle;
     

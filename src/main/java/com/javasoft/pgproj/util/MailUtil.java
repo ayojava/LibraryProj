@@ -53,7 +53,6 @@ public class MailUtil {
         this.mailSender = propertyUtil.getMailSender();
         this.password = propertyUtil.getMailPassword();
         this.mailServer = propertyUtil.getMailServer();
-
     }
 
     public static void main(String[] args) {
